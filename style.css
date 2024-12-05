@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凿壁偷光 - Záo Bì Tōu Guāng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .image-item {
+            flex: 1 1 calc(20% - 1em);
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            padding: 1em;
+            background-color: white;
+            text-align: center;
+        }
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 0.5em 0;
+        }
+        .video-container {
+            text-align: center;
+            margin-top: 2em;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>凿壁偷光 - Záo Bì Tōu Guāng</h1>
+    </header>
+    <div class="container">
+        <section class="images">
+            <div class="image-item">
+                <img src="https://via.placeholder.com/150" alt="图片1">
+                <ul>
+                    <li>配文1：这是关于凿壁偷光的第一张图片。</li>
+                </ul>
+            </div>
+            <div class="image-item">
+                <img src="https://via.placeholder.com/150" alt="图片2">
+                <ul>
+                    <li>配文2：这是关于凿壁偷光的第二张图片。</li>
+                </ul>
+            </div>
+            <div class="image-item">
+                <img src="https://via.placeholder.com/150" alt="图片3">
+                <ul>
+                    <li>配文3：这是关于凿壁偷光的第三张图片。</li>
+                </ul>
+            </div>
+            <div class="image-item">
+                <img src="https://via.placeholder.com/150" alt="图片4">
+                <ul>
+                    <li>配文4：这是关于凿壁偷光的第四张图片。</li>
+                </ul>
+            </div>
+            <div class="image-item">
+                <img src="https://via.placeholder.com/150" alt="图片5">
+                <ul>
+                    <li>配文5：这是关于凿壁偷光的第五张图片。</li>
+                </ul>
+            </div>
+        </section>
+        <section class="video-container">
+            <h2>相关视频</h2>
+            <video controls>
+                <source src="your-video-file.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频标签。
+            </video>
+        </section>
+    </div>
+</body>
+</html>
